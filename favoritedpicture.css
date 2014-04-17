@@ -1,0 +1,25 @@
+img {
+	position: relative;
+	width: 100%;
+	border
+}
+.box {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px;
+	border-radius: 5px;
+	background-color: white;
+	opacity: .5;
+	text-align: right;
+	font-size: 20px;
+	padding: 3px 3px 0 0;
+	width: 25px;
+	height: 25px;
+}
+.fa-heart {
+	color: red;
+}
+#phrase {
+	color: black;
+}
