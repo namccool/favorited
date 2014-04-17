@@ -1,13 +1,16 @@
 .box {
-	border: 1px solid black;
-	border-radius: 5px;
-	text-indent: 2px;
-	width: 25px;
-	height: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-indent: 2px;
+  width: 25px;
+  height: 5%;
+  margin: 10px;
 }
+
 .fa-heart {
-	color: red;
+  color: red;
 }
+
 #phrase {
-	color: black;
+  color: black;
 }

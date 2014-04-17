@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	var favoritePhrase = "<span id='phrase'>Add to favorites.</span>";
  	$(".box").on("mouseenter", function(){
