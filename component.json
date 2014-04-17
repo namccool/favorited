@@ -1,0 +1,24 @@
+{
+  "name": "favorited",
+  "repo": "namccool/favorited",
+  "description": "A clickable icon to keep track of favorite finds.",
+  "version": "0.0.1",
+  "keywords": [],
+  "author": "Nellie McCool",
+  "dependencies": {
+    "fortawesome/font-awesome": "^4.0.3",
+    "component/jquery": "^1.9.1",
+    "component/dom": "^1.0.5"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "favorited.js",
+  "scripts": [
+    "favorited.js",
+    "favoritedpicture.js"
+  ],
+  "styles": [
+    "favorited.css",
+    "favoritedpicture.css"
+  ]
+}
