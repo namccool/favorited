@@ -1,22 +1,28 @@
+img {
+	position: absolute;
+	width: 100%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
 .box {
 	display: block;
-	top: 10px;
-	right: 100px;
+	position: initial;
 	border: 1px;
 	border-radius: 5px;
 	background-color: white;
 	opacity: .5;
-	text-align: right;
+	text-align: center;
 	font-size: 20px;
-	padding: 3px 3px 0 0;
+	margin: 0 3px 3px 3px;
+	padding: 1px 1px 0 1px;
 	width: 25px;
 	height: 25px;
+	cursor: pointer;
 }
-
 .fa-heart {
 	color: red;
 }
-
 .fa-star {
 	color: green;
 }
