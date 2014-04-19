@@ -6,9 +6,9 @@
   "keywords": [],
   "author": "Nellie McCool",
   "dependencies": {
-    "fortawesome/font-awesome": "^4.0.3",
-    "component/jquery": "^1.9.1",
-    "component/dom": "^1.0.5"
+    "fortawesome/font-awesome": "*",
+    "component/jquery": "*",
+    "component/dom": "*"
   },
   "development": {},
   "license": "MIT",
