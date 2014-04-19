@@ -2,7 +2,8 @@
  * Module dependencies.
  */
 
-var dom = window.dom = require('dom');
+var dom = require('dom');
+window.require = require;
 
 /**
  * Expose `favorited`.

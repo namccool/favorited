@@ -1,6 +1,6 @@
 
 build: components favorited.js favorited.css
-	component build --dev
+	component build --standalone favorited name build
 
 components: component.json
 	component install --dev
