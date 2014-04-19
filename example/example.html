@@ -10,16 +10,20 @@
       }
     </style>
     <link rel="stylesheet" href="../build/build.css"/>
+    <link rel="stylesheet" href="../favoritedpicture.css"/>
   </head>
 
   <body>
     <img src="http://i.imgur.com/v3XcGEI.jpg"/>
-    <div class="box">
+    <div class="box box-one">
+    </div>
+    <div class="box box-two">
     </div>
     <script src="../build/build.js"></script>
     <script>
       var fav = require('../favorited');
-      fav('heart', '.box', 'fa-heart-o', 'fa-heart');
+      fav('heart', '.box-one', 'fa-heart-o', 'fa-heart');
+      fav('star', '.box-two', 'fa-star-o', 'fa-star');
     </script>
   </body>
 
