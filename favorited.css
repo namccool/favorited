@@ -20,6 +20,6 @@ img {
 	height: 25px;
 	cursor: pointer;
 }
-.fa-heart {
-	color: red;
+.fa-star {
+	color: green;
 }
